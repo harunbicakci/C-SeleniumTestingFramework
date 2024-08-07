@@ -5,9 +5,9 @@ namespace TestFrameworkNUnit.Pages
 {
 	public class BasePage
 	{
-		protected class IWebDriver Driver;
+		protected IWebDriver Driver;
 
-		public BasePage(IWebDriver driver)
+		protected BasePage(IWebDriver driver)
 		{
 			Driver = driver;
 		}
